@@ -1,0 +1,149 @@
+html, body {
+	height: 100%;
+}
+
+.navbar-default {
+	background-color: white;
+	border-style: none;
+	margin: 0px;
+	border-bottom: 5px solid #DDDDDD;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: white !important;
+	background-color: #4AAAA5;
+	margin-left: 201px !important;
+}
+
+.navbar-brand:hover {
+	color: #4AAAA5 !important;
+}
+
+.navbar-right {
+	margin-right: 200px;
+	font-family: "Arial", Helvetica Neue, Helvetica, sans-serif;
+}
+
+.nav-link:hover {
+	color: #4AAAA5 !important;
+}
+
+.main-container {
+	height: 100%;
+	background-image: url("../images/cloth.png");
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.main-content {
+	width: 650px;
+	float: left;
+}
+
+.header-text {
+	font-weight: bold;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #4AAAA5;
+	padding-bottom: 20px;
+	border-bottom: solid 2px #DDDDDD;
+}
+
+.about-me,
+.contact-me,
+.my-portfolio {
+	font-family: "Arial", Helvetica Neue, Helvetica, sans-serif;
+	color: #777777;
+	background-color: white;
+	border: 1px solid #DDDDDD;
+	padding: 15px 25px 15px 25px;
+	margin: 30px 0px 30px 0px;
+	line-height: 25px;
+}	
+
+.img-rounded {
+	margin: 0px 20px 10px 0px;
+}
+
+.row {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    padding-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.portfolio-image {
+	height: 120px;
+}
+
+.image {
+	position: relative;
+	float: left;
+	margin: 10px 40px 0px 0px;
+}
+
+.imagetext {
+	position: absolute;
+	width: 100%;
+	bottom: 5px;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: white;
+	background-color: #4AAAA5;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+}
+
+.connect-me {
+	font-family: "Arial", Helvetica Neue, Helvetica, sans-serif;
+	color: #777777;
+	background-color: white;
+	border: 1px solid #DDDDDD;
+	padding: 15px 25px 15px 25px;
+	margin: 30px 0px 0px 0px;
+}
+
+.form-message {
+	height: 200px;
+}
+
+.btn {
+	color: white;
+	background-color: #4AAAA5;
+}
+
+.sidebar {
+	width: 270px;
+	float: right;
+}
+
+.flex-center{    
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icon {
+	height: 60px;
+	text-align: center;
+}
+
+.footer {
+	color: white;
+	background-color: #666666;
+	border-top: 5px solid #4AAAA5;
+	padding: 15px;
+	text-align: center;
+}
+
+.clearfix {
+	content: ' ';
+	clear: both;
+	overflow: auto;
+}
