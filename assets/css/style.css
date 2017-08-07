@@ -6,7 +6,6 @@ html, body {
 	background-color: white;
 	border-style: none;
 	margin: 0px;
-	border-bottom: 5px solid #DDDDDD;
 }
 
 .navbar-brand {
@@ -14,7 +13,6 @@ html, body {
 	font-family: "Georgia", Times, Times New Roman, serif;
 	color: white !important;
 	background-color: #4AAAA5;
-	margin-left: 201px !important;
 }
 
 .navbar-brand:hover {
@@ -22,7 +20,6 @@ html, body {
 }
 
 .navbar-right {
-	margin-right: 200px;
 	font-family: "Arial", Helvetica Neue, Helvetica, sans-serif;
 }
 
@@ -33,6 +30,7 @@ html, body {
 .main-container {
 	height: 100%;
 	background-image: url("../images/cloth.png");
+	border-top: 5px solid #DDDDDD;
 }
 
 .wrapper {
@@ -72,11 +70,20 @@ html, body {
     box-sizing: border-box;
     display: inline-block;
     width: 100%;
-    padding-left: 40px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.col-md-8 {
+	margin: 0;
+	padding: 0 !important;
+}
+
+.col-md-4 {
+	margin: 0;
+	padding: 0px 0px 0px 30px !important;
 }
 
 .portfolio-image {
